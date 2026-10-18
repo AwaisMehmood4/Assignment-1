@@ -5,9 +5,14 @@ description = "A simple Streamlit app template."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "en-core-web-sm",
     "nltk>=3.10.3",
+    "spacy>=3.8",
     "streamlit>=1.61.1",
 ]
 
 [tool.uv]
 package = false
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
