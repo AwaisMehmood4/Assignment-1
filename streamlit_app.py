@@ -263,7 +263,7 @@ def remove_result(index):
 # ---------------------------------------------------------------
 st.markdown("""
 <div class="hero">
-  <h1>🧠 NLP Playground</h1>
+  <h1>🧠 NLP Playground - Awais Mehmood-001</h1>
   <p>Type any text, pick an NLP method and see the result instantly.</p>
   <div class="tags"><span>Tokenization</span><span>Stop words</span><span>Stemming</span>
   <span>Lemmatization</span><span>POS tagging</span></div>
@@ -342,4 +342,4 @@ for i, item in enumerate(st.session_state.history):
                   help="Remove this result", on_click=remove_result, args=(i,))
 
 st.markdown("")
-st.caption("Built with Streamlit, NLTK and spaCy · MS AI, University of Central Punjab")
+st.caption("Built with Streamlit, NLTK and spaCy · Hafiz Awais-001 MS AI, University of Central Punjab")
