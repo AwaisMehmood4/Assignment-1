@@ -263,7 +263,7 @@ def remove_result(index):
 # ---------------------------------------------------------------
 st.markdown("""
 <div class="hero">
-  <h1>🧠 NLP Playground - Hafiz Awais Mehmood-001</h1>
+  <h1>🧠 NLP Playground - Hafiz Awais Mehmood</h1>
   <p>Type any text, pick an NLP method and see the result instantly.</p>
   <div class="tags"><span>Tokenization</span><span>Stop words</span><span>Stemming</span>
   <span>Lemmatization</span><span>POS tagging</span></div>
